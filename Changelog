@@ -1,0 +1,41 @@
+XXXX.XX.XX - version 0.26:
+	- Added analysis running time to report
+
+2017.10.6 - version 0.25:
+	Added PROC graph
+	Bug fixed when there is only header for FC but no data in the NMON file
+	Added table of contents and in-HTML navigation in the report
+2015.11.19 - version 0.24:
+	Fix date in the report header
+	Added BAR chart for FC and IOADAPT
+	Development migrated to PyCharm
+	Code cleanups
+	Minor report cleanups
+	Added POOL graph for Shared Pool usage
+	Added MEMUSE graph for memory tunables and values
+2015.11.12 - version 0.23:
+	Fixed graph title (added tab name)
+	Added max value to graph legend
+	Fix number format (thousands separator)
+	Minor report cleanups
+2015.11.10 - version 0.22:
+	Added mean (average) calculation to LPAR graph
+	Added folded VP to LPAR graph
+	Fix weighted average calculation on LPAR graph
+	Added hostname to graph title
+2015.11.02 - version 0.21:
+	Fix for top disks 10 when total number of disks are less then 10
+	Added 'sissas' to IOADAPT statistics
+	Fix for missing values in sysinfo (AAA)
+	Added PCPU graphs
+2015.10.29 - version 0.2:
+	Added report header with nmon settings 
+	Updated IOADAPT to create separate chart for read, write and xfer_tps
+	Code cleanups Fix file merge
+	Added PAGE analysis Minor code optimizations
+	Updated Readme
+2015.10.27 - version 0.1:
+	Added support for multiple nmon file processing 
+	Added 'top' option for disk analisys
+	Fix for missing adapter names in config file
+	Fixed graphs scalings.
